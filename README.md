@@ -1,15 +1,17 @@
 # CalcSustain
-<b>N-layer</b> ASP.NET Web API 2 application using frameworks: <b>EntityFramewok</b>, <b>Ninject</b>, <b>Ninject.MVC5</b> and <b>Automapper</b>.
+<b>N-layer</b> ASP.NET <b>Web API 2</b> application using frameworks: <b>EntityFramewok</b>, <b>Ninject</b>, <b>Ninject.MVC5</b> and <b>Automapper</b>.
+<br>
+Authorization for this application uses <b>Oath2</b> specification based on <b>OWIN</b> middleware and <b>access tokens</b> produced by this middleware.
 <hr>
 Some key code snippets only
 <br>
-This is a 3-layer ASP.NET Web API 2 contains <b>DAL</b>, <b>BLL</b> and <b>WEB</b> layers with this schema:
+This is a 3-layer ASP.NET <b>Web API 2</b> application contains <b>DAL</b>, <b>BLL</b> and <b>WEB</b> layers with this schema:
 <hr>
 <img src="Screenshots/NLayer.jpg" alt="schema" width="300" />
 <hr>
-Authorization uses <b>Oath2</b> specification based on <b>OWIN</b> middleware and <b>access tokens</b> produced by this middleware.
+
 <br>
-Here is current working schema for that authorization:
+Here is current working schema for <b>OWIN</b>-based <b>access tokens</b> authorization:
 <hr>
 <img src="Screenshots/schema tokens access.jpg" alt="schema" width="700" />
 <hr>
