@@ -11,7 +11,7 @@ Authorization uses <b>Oath2</b> specification based on <b>OWIN</b> middleware an
 <br>
 Here is current working schema for that authorization:
 <hr>
-<img src="Screenshots/schema tokens access.jpg" alt="schema" width="600" />
+<img src="Screenshots/schema tokens access.jpg" alt="schema" width="700" />
 <hr>
 
 Take a look at layers code: 
@@ -46,7 +46,7 @@ Take a look at layers code:
 
 <p>Here are some screenshots:</p>
 <p>
-<b>HTML page for interact with this Web API2 application</b>:
+<b>HTML</b> page for interact with this <b>Web API2 service</b>:
 <br><img width="600" src="Screenshots/calc_cost.jpg" alt="calc_cost.jpg" />
 </p>
 <hr>
