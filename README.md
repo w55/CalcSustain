@@ -7,6 +7,11 @@ This is a 3-layer ASP.NET Web API 2 contains <b>DAL</b>, <b>BLL</b> and <b>WEB</
 <hr>
 <img src="Screenshots/NLayer.jpg" alt="schema" width="300" />
 <hr>
+Authorization uses Oath2 specification based on OWIN and tokens with this schema:
+<hr>
+<img src="Screenshots/schema tokens access.jpg" alt="schema" width="600" />
+<hr>
+
 Take a look at layers code: 
 
 <b>DAL</b> (Data Access Layer): 
@@ -39,12 +44,7 @@ Take a look at layers code:
 
 <p>Here are some screenshots:</p>
 <p>
-<b>Index view</b>:
-<br><img width="600" src="Screenshots/Index_html.jpg" alt="Index_html.jpg" />
+<b>HTML page for interact with this Web API2 application</b>:
+<br><img width="600" src="Screenshots/calc_cost.jpg" alt="calc_cost.jpg" />
 </p>
 <hr>
-
-<p>
-<b>Details view</b>:
-<br><img width="600" src="Screenshots/Details_html.jpg" alt="Details_html.jpg" />
-</p>
