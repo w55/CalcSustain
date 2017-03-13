@@ -7,7 +7,9 @@ This is a 3-layer ASP.NET Web API 2 contains <b>DAL</b>, <b>BLL</b> and <b>WEB</
 <hr>
 <img src="Screenshots/NLayer.jpg" alt="schema" width="300" />
 <hr>
-Authorization uses Oath2 specification based on OWIN and tokens with this schema:
+Authorization uses <b>Oath2</b> specification based on <b>OWIN</b> middleware and <b>access tokens</b> produced by this middleware.
+<br>
+Here is current working schema for that authorization:
 <hr>
 <img src="Screenshots/schema tokens access.jpg" alt="schema" width="600" />
 <hr>
