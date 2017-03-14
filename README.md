@@ -49,7 +49,7 @@ Take a look at layers code:
 	<li>Models: <a href="CalcSustain.WEB/Models/CalcModelsWEB.cs">CalcModelsWEB.cs</a>,</li>
 	<li>Models: <a href="CalcSustain.WEB/Models/IdentityModels.cs">IdentityModels.cs</a>,</li>
 	
-	<li>Providers: <a href="CalcSustain.WEB/Models/ApplicationOAuthProvider.cs">ApplicationOAuthProvider.cs</a></li>
+	<li>Providers: <a href="CalcSustain.WEB/Providers/ApplicationOAuthProvider.cs">ApplicationOAuthProvider.cs</a></li>
 </ul>
 <hr>
 
