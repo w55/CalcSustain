@@ -20,12 +20,12 @@ Take a look at layers code:
 
 <b>DAL</b> (Data Access Layer): 
 <ul>
-	<li>EF: <span data-href="CalcSustain.DAL/EF/OrderContext.cs">OrderContext.cs</span>,</li>
-	<li>Entities: <span data-href="CalcSustain.DAL/Entities/Manager.cs">Manager.cs</span>,</li>
-	<li>Interfaces: <span data-href="CalcSustain.DAL/Interfaces/IRepository.cs">IRepository.cs</span>,</li>
-	<li>Repositories: <span data-href="CalcSustain.DAL/Repositories/OrderRepository.cs">OrderRepository.cs</span>,</li>
-	<li>Repositories: <span data-href="CalcSustain.DAL/Repositories/ManagerRepository.cs">ManagerRepository.cs</span>,</li>
-	<li>Repositories: <span data-href="CalcSustain.DAL/Repositories/EFUnitOfWork.cs">EFUnitOfWork.cs</span></li>
+	<li>EF: <code data-href="CalcSustain.DAL/EF/OrderContext.cs">OrderContext.cs</code>,</li>
+	<li>Entities: <code data-href="CalcSustain.DAL/Entities/Manager.cs">Manager.cs</code>,</li>
+	<li>Interfaces: <code data-href="CalcSustain.DAL/Interfaces/IRepository.cs">IRepository.cs</code>,</li>
+	<li>Repositories: <code data-href="CalcSustain.DAL/Repositories/OrderRepository.cs">OrderRepository.cs</code>,</li>
+	<li>Repositories: <code data-href="CalcSustain.DAL/Repositories/ManagerRepository.cs">ManagerRepository.cs</code>,</li>
+	<li>Repositories: <code data-href="CalcSustain.DAL/Repositories/EFUnitOfWork.cs">EFUnitOfWork.cs</code></li>
 </ul>
 
 <b>BLL</b> (Business Logic Layer): 
