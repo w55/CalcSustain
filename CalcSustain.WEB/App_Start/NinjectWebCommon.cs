@@ -62,8 +62,8 @@ namespace CalcSustain.WEB.App_Start
         /// <param name="kernel">The kernel.</param>
         private static void RegisterServices(IKernel kernel)
         {
-            // регистрируем свой сопоставитель зависимостей:
-            // интерфейс ICostService сопоставляется с классом CostService.
+            // СЂРµРіРёСЃС‚СЂРёСЂСѓРµРј СЃРІРѕР№ СЃРѕРїРѕСЃС‚Р°РІРёС‚РµР»СЊ Р·Р°РІРёСЃРёРјРѕСЃС‚РµР№:
+            // РёРЅС‚РµСЂС„РµР№СЃ ICostService СЃРѕРїРѕСЃС‚Р°РІР»СЏРµС‚СЃСЏ СЃ РєР»Р°СЃСЃРѕРј CostService.
             //
             System.Web.Mvc.DependencyResolver.SetResolver(new CalcSustain.WEB.Util.NinjectDependencyResolver(kernel));
         }        
