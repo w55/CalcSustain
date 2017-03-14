@@ -20,29 +20,36 @@ Take a look at layers code:
 
 <b>DAL</b> (Data Access Layer): 
 <ul>
-	<li>EF: <a href="ERent.DAL/EF/RentContext.cs">RentContext.cs</a>,</li>
-	<li>Entities: <a href="ERent.DAL/Entities/Salesman.cs">Salesman.cs</a>,</li>
-	<li>Interfaces: <a href="ERent.DAL/Interfaces/IRepository.cs">IRepository.cs</a>,</li>
-	<li>Repositories: <a href="ERent.DAL/Repositories/ApartmentRepository.cs">ApartmentRepository.cs</a>,</li>
-	<li>Repositories: <a href="ERent.DAL/Repositories/SalesmanRepository.cs">SalesmanRepository.cs</a>,</li>
-	<li>Repositories: <a href="ERent.DAL/Repositories/EFUnitOfWork.cs">EFUnitOfWork.cs</a></li>
+	<li>EF: <a href="" data-href="CalcSustain.DAL/EF/OrderContext.cs">OrderContext.cs</a>,</li>
+	<li>Entities: <a href="" data-href="CalcSustain.DAL/Entities/Manager.cs">Manager.cs</a>,</li>
+	<li>Interfaces: <a href="" data-href="CalcSustain.DAL/Interfaces/IRepository.cs">IRepository.cs</a>,</li>
+	<li>Repositories: <a href="" data-href="CalcSustain.DAL/Repositories/OrderRepository.cs">OrderRepository.cs</a>,</li>
+	<li>Repositories: <a href="" data-href="CalcSustain.DAL/Repositories/ManagerRepository.cs">ManagerRepository.cs</a>,</li>
+	<li>Repositories: <a href="" data-href="CalcSustain.DAL/Repositories/EFUnitOfWork.cs">EFUnitOfWork.cs</a></li>
 </ul>
 
 <b>BLL</b> (Business Logic Layer): 
 <ul>
-	<li>DTO: <a href="ERent.BLL/DTO/SalesmanDTO.cs">SalesmanDTO.cs</a>,</li>
-	<li>Infrastructure: <a href="ERent.BLL/Infrastructure/ServiceModule.cs">ServiceModule.cs</a>,</li>
-	<li>Infrastructure: <a href="ERent.BLL/Infrastructure/ValidationException.cs">ValidationException.cs</a>,</li>
-	<li>Interfaces: <a href="ERent.BLL/Interfaces/IAdvertService.cs">IAdvertService.cs</a>,</li>
-	<li>Services: <a href="ERent.BLL/Services/AdvertService.cs">AdvertService.cs</a></li>
+	<li>DTO: <a href="CalcSustain.BLL/DTO/CalcModelsDTO.cs">CalcModelsDTO.cs</a>,</li>
+	<li>Infrastructure: <a href="CalcSustain.BLL/Infrastructure/ValidationException.cs">ValidationException.cs</a>,</li>
+	<li>Interfaces: <a href="CalcSustain.BLL/Interfaces/ICostService.cs">ICostService.cs</a>,</li>
+	<li>Services: <a href="CalcSustain.BLL/Services/CostService.cs">CostService.cs</a></li>
 </ul>
 
 <b>WEB</b> (Presentation Layer): 
 <ul>
-	<li>App_Start: <a href="ERent.WEB/App_Start/NinjectWebCommon.cs">NinjectWebCommon.cs</a></li>
-	<li>Controllers: <a href="ERent.WEB/Controllers/HomeController.cs">HomeController.cs</a>,</li>
-	<li>Models: <a href="ERent.WEB/Models/SalesmanViewModel.cs">SalesmanViewModel.cs</a>,</li>
-	<li>Util: <a href="ERent.WEB/Util/NinjectDependencyResolver.cs">NinjectDependencyResolver.cs</a></li>
+	<li>App_Start: <a href="CalcSustain.WEB/App_Start/NinjectWebCommon.cs">NinjectWebCommon.cs</a>,</li>
+	<li>App_Start: <a href="CalcSustain.WEB/App_Start/Startup.Auth.cs">Startup.Auth.cs</a>,</li>
+	<li>App_Start: <a href="CalcSustain.WEB/App_Start/WebApiConfig.cs">WebApiConfig.cs</a>,</li>	
+	
+	<li>Controllers: <a href="CalcSustain.WEB/Controllers/AccountController.cs">AccountController.cs</a>,</li>
+	<li>Controllers: <a href="CalcSustain.WEB/Controllers/ValuesController.cs">ValuesController.cs</a>,</li>	
+	
+	<li>Models: <a href="CalcSustain.WEB/Models/AccountDbInitializer.cs">AccountDbInitializer.cs</a>,</li>
+	<li>Models: <a href="CalcSustain.WEB/Models/CalcModelsWEB.cs">CalcModelsWEB.cs</a>,</li>
+	<li>Models: <a href="CalcSustain.WEB/Models/IdentityModels.cs">IdentityModels.cs</a>,</li>
+	
+	<li>Providers: <a href="CalcSustain.WEB/Models/ApplicationOAuthProvider.cs">ApplicationOAuthProvider.cs</a></li>
 </ul>
 <hr>
 
